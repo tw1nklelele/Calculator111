@@ -45,6 +45,8 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnRemoveSimvole = new System.Windows.Forms.Button();
             this.labelTextIn = new System.Windows.Forms.Label();
+            this.lbCalclutorUP = new System.Windows.Forms.Label();
+            this.btnCalculate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn1
@@ -53,12 +55,13 @@
             this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.FlatAppearance.BorderSize = 0;
             this.btn1.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(12, 134);
+            this.btn1.Location = new System.Drawing.Point(12, 150);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(50, 50);
             this.btn1.TabIndex = 1;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -66,12 +69,13 @@
             this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.FlatAppearance.BorderSize = 0;
             this.btn2.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(68, 134);
+            this.btn2.Location = new System.Drawing.Point(68, 150);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(50, 50);
             this.btn2.TabIndex = 2;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn3
             // 
@@ -79,12 +83,13 @@
             this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.FlatAppearance.BorderSize = 0;
             this.btn3.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(124, 134);
+            this.btn3.Location = new System.Drawing.Point(124, 150);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(50, 50);
             this.btn3.TabIndex = 3;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn4
             // 
@@ -92,7 +97,7 @@
             this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.FlatAppearance.BorderSize = 0;
             this.btn4.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(12, 190);
+            this.btn4.Location = new System.Drawing.Point(12, 206);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(50, 50);
             this.btn4.TabIndex = 4;
@@ -105,7 +110,7 @@
             this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.FlatAppearance.BorderSize = 0;
             this.btn5.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(68, 190);
+            this.btn5.Location = new System.Drawing.Point(68, 206);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(50, 50);
             this.btn5.TabIndex = 5;
@@ -118,7 +123,7 @@
             this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.FlatAppearance.BorderSize = 0;
             this.btn6.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(124, 190);
+            this.btn6.Location = new System.Drawing.Point(124, 206);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(50, 50);
             this.btn6.TabIndex = 6;
@@ -131,7 +136,7 @@
             this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.FlatAppearance.BorderSize = 0;
             this.btn7.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.Location = new System.Drawing.Point(12, 246);
+            this.btn7.Location = new System.Drawing.Point(12, 262);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(50, 50);
             this.btn7.TabIndex = 7;
@@ -144,7 +149,7 @@
             this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.FlatAppearance.BorderSize = 0;
             this.btn8.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.Location = new System.Drawing.Point(68, 246);
+            this.btn8.Location = new System.Drawing.Point(68, 262);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(50, 50);
             this.btn8.TabIndex = 8;
@@ -157,7 +162,7 @@
             this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.FlatAppearance.BorderSize = 0;
             this.btn9.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.Location = new System.Drawing.Point(124, 246);
+            this.btn9.Location = new System.Drawing.Point(124, 262);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(50, 50);
             this.btn9.TabIndex = 9;
@@ -170,7 +175,7 @@
             this.btnMulptiplication.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMulptiplication.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMulptiplication.ForeColor = System.Drawing.Color.Red;
-            this.btnMulptiplication.Location = new System.Drawing.Point(124, 78);
+            this.btnMulptiplication.Location = new System.Drawing.Point(124, 94);
             this.btnMulptiplication.Name = "btnMulptiplication";
             this.btnMulptiplication.Size = new System.Drawing.Size(50, 50);
             this.btnMulptiplication.TabIndex = 10;
@@ -183,7 +188,7 @@
             this.btnPlus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlus.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnPlus.ForeColor = System.Drawing.Color.Red;
-            this.btnPlus.Location = new System.Drawing.Point(12, 78);
+            this.btnPlus.Location = new System.Drawing.Point(12, 94);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(50, 50);
             this.btnPlus.TabIndex = 11;
@@ -196,7 +201,7 @@
             this.btnMinus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinus.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMinus.ForeColor = System.Drawing.Color.Red;
-            this.btnMinus.Location = new System.Drawing.Point(68, 78);
+            this.btnMinus.Location = new System.Drawing.Point(68, 94);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(50, 50);
             this.btnMinus.TabIndex = 12;
@@ -209,7 +214,7 @@
             this.btnDivision.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDivision.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnDivision.ForeColor = System.Drawing.Color.Red;
-            this.btnDivision.Location = new System.Drawing.Point(180, 78);
+            this.btnDivision.Location = new System.Drawing.Point(180, 94);
             this.btnDivision.Name = "btnDivision";
             this.btnDivision.Size = new System.Drawing.Size(50, 50);
             this.btnDivision.TabIndex = 13;
@@ -221,7 +226,7 @@
             this.btnClearAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnClearAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClearAll.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnClearAll.Location = new System.Drawing.Point(12, 302);
+            this.btnClearAll.Location = new System.Drawing.Point(12, 318);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(50, 50);
             this.btnClearAll.TabIndex = 14;
@@ -234,7 +239,7 @@
             this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.FlatAppearance.BorderSize = 0;
             this.btn0.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.Location = new System.Drawing.Point(68, 302);
+            this.btn0.Location = new System.Drawing.Point(68, 318);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(50, 50);
             this.btn0.TabIndex = 15;
@@ -246,7 +251,7 @@
             this.btnRemoveSimvole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnRemoveSimvole.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRemoveSimvole.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnRemoveSimvole.Location = new System.Drawing.Point(124, 302);
+            this.btnRemoveSimvole.Location = new System.Drawing.Point(124, 318);
             this.btnRemoveSimvole.Name = "btnRemoveSimvole";
             this.btnRemoveSimvole.Size = new System.Drawing.Size(50, 50);
             this.btnRemoveSimvole.TabIndex = 16;
@@ -257,18 +262,42 @@
             // 
             this.labelTextIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.labelTextIn.Font = new System.Drawing.Font("MingLiU-ExtB", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTextIn.Location = new System.Drawing.Point(12, 35);
+            this.labelTextIn.Location = new System.Drawing.Point(12, 51);
             this.labelTextIn.Name = "labelTextIn";
             this.labelTextIn.Size = new System.Drawing.Size(218, 40);
             this.labelTextIn.TabIndex = 18;
             this.labelTextIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lbCalclutorUP
+            // 
+            this.lbCalclutorUP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.lbCalclutorUP.Font = new System.Drawing.Font("MingLiU-ExtB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbCalclutorUP.Location = new System.Drawing.Point(12, 18);
+            this.lbCalclutorUP.Name = "lbCalclutorUP";
+            this.lbCalclutorUP.Size = new System.Drawing.Size(218, 26);
+            this.lbCalclutorUP.TabIndex = 19;
+            this.lbCalclutorUP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnCalculate
+            // 
+            this.btnCalculate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnCalculate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalculate.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCalculate.Location = new System.Drawing.Point(180, 318);
+            this.btnCalculate.Name = "btnCalculate";
+            this.btnCalculate.Size = new System.Drawing.Size(50, 50);
+            this.btnCalculate.TabIndex = 20;
+            this.btnCalculate.Text = "=";
+            this.btnCalculate.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(241, 359);
+            this.ClientSize = new System.Drawing.Size(241, 390);
+            this.Controls.Add(this.btnCalculate);
+            this.Controls.Add(this.lbCalclutorUP);
             this.Controls.Add(this.labelTextIn);
             this.Controls.Add(this.btnRemoveSimvole);
             this.Controls.Add(this.btn0);
@@ -312,6 +341,8 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnRemoveSimvole;
         private System.Windows.Forms.Label labelTextIn;
+        private System.Windows.Forms.Label lbCalclutorUP;
+        private System.Windows.Forms.Button btnCalculate;
     }
 }
 

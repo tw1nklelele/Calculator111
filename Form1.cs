@@ -25,6 +25,26 @@ namespace Calculator
             {
                 labelTextIn.Text += e.KeyChar;
             }
+            else if (e.KeyChar == '+')
+            {
+                lbCalclutorUP.Text = labelTextIn.Text + "+";
+                labelTextIn.Text = "";
+            }
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "1";
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "2";
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "3";
         }
     }
 }
