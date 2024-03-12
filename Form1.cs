@@ -57,5 +57,10 @@ namespace Calculator
             operand2 = Convert.ToDouble(labelTextIn.Text);
             labelTextIn.Text = Calculator.Addition(operand1, operand2).ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
