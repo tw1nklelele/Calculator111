@@ -54,7 +54,7 @@
             this.btn1.BackColor = System.Drawing.Color.White;
             this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.FlatAppearance.BorderSize = 0;
-            this.btn1.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(12, 150);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(50, 50);
@@ -68,7 +68,7 @@
             this.btn2.BackColor = System.Drawing.Color.White;
             this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.FlatAppearance.BorderSize = 0;
-            this.btn2.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(68, 150);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(50, 50);
@@ -82,7 +82,7 @@
             this.btn3.BackColor = System.Drawing.Color.White;
             this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.FlatAppearance.BorderSize = 0;
-            this.btn3.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(124, 150);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(50, 50);
@@ -96,7 +96,7 @@
             this.btn4.BackColor = System.Drawing.Color.White;
             this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.FlatAppearance.BorderSize = 0;
-            this.btn4.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(12, 206);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(50, 50);
@@ -109,7 +109,7 @@
             this.btn5.BackColor = System.Drawing.Color.White;
             this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.FlatAppearance.BorderSize = 0;
-            this.btn5.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(68, 206);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(50, 50);
@@ -122,7 +122,7 @@
             this.btn6.BackColor = System.Drawing.Color.White;
             this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.FlatAppearance.BorderSize = 0;
-            this.btn6.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(124, 206);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(50, 50);
@@ -135,7 +135,7 @@
             this.btn7.BackColor = System.Drawing.Color.White;
             this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.FlatAppearance.BorderSize = 0;
-            this.btn7.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(12, 262);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(50, 50);
@@ -148,7 +148,7 @@
             this.btn8.BackColor = System.Drawing.Color.White;
             this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.FlatAppearance.BorderSize = 0;
-            this.btn8.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(68, 262);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(50, 50);
@@ -161,7 +161,7 @@
             this.btn9.BackColor = System.Drawing.Color.White;
             this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.FlatAppearance.BorderSize = 0;
-            this.btn9.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(124, 262);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(50, 50);
@@ -173,7 +173,7 @@
             // 
             this.btnMulptiplication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnMulptiplication.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMulptiplication.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnMulptiplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMulptiplication.ForeColor = System.Drawing.Color.Red;
             this.btnMulptiplication.Location = new System.Drawing.Point(124, 94);
             this.btnMulptiplication.Name = "btnMulptiplication";
@@ -186,7 +186,7 @@
             // 
             this.btnPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnPlus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPlus.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnPlus.ForeColor = System.Drawing.Color.Red;
             this.btnPlus.Location = new System.Drawing.Point(12, 94);
             this.btnPlus.Name = "btnPlus";
@@ -199,7 +199,7 @@
             // 
             this.btnMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnMinus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinus.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMinus.ForeColor = System.Drawing.Color.Red;
             this.btnMinus.Location = new System.Drawing.Point(68, 94);
             this.btnMinus.Name = "btnMinus";
@@ -212,7 +212,7 @@
             // 
             this.btnDivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnDivision.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDivision.Font = new System.Drawing.Font("Futura PT Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnDivision.ForeColor = System.Drawing.Color.Red;
             this.btnDivision.Location = new System.Drawing.Point(180, 94);
             this.btnDivision.Name = "btnDivision";
@@ -238,7 +238,7 @@
             this.btn0.BackColor = System.Drawing.Color.White;
             this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.FlatAppearance.BorderSize = 0;
-            this.btn0.Font = new System.Drawing.Font("Futura PT Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.Location = new System.Drawing.Point(68, 318);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(50, 50);
@@ -289,6 +289,7 @@
             this.btnCalculate.TabIndex = 20;
             this.btnCalculate.Text = "=";
             this.btnCalculate.UseVisualStyleBackColor = false;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // Form1
             // 

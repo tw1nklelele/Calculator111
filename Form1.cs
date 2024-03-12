@@ -12,6 +12,9 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        double operand1;
+        double operand2;
+        string opeation;
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +31,7 @@ namespace Calculator
             else if (e.KeyChar == '+')
             {
                 lbCalclutorUP.Text = labelTextIn.Text + "+";
+                operand1 = Convert.ToDouble(labelTextIn.Text);
                 labelTextIn.Text = "";
             }
         }
@@ -45,6 +49,13 @@ namespace Calculator
         private void btn3_Click(object sender, EventArgs e)
         {
             labelTextIn.Text += "3";
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            lbCalclutorUP.Text = lbCalclutorUP.Text + labelTextIn.Text + "=";
+            operand2 = Convert.ToDouble(labelTextIn.Text);
+            labelTextIn.Text = Calculator.Addition(operand1, operand2).ToString();
         }
     }
 }
