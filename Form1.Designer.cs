@@ -242,6 +242,7 @@
             this.btnClearAll.TabIndex = 14;
             this.btnClearAll.Text = "AC";
             this.btnClearAll.UseVisualStyleBackColor = false;
+            this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
             // 
             // btn0
             // 
@@ -268,6 +269,7 @@
             this.btnRemoveSimvole.TabIndex = 16;
             this.btnRemoveSimvole.Text = "DEL";
             this.btnRemoveSimvole.UseVisualStyleBackColor = false;
+            this.btnRemoveSimvole.Click += new System.EventHandler(this.btnRemoveSimvole_Click);
             // 
             // labelTextIn
             // 
