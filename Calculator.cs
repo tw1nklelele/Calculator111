@@ -16,23 +16,28 @@ namespace Calculator
         //метод вычитания
         public static double Subtraction(double x, double y)
         {
-            return x + y;
+            return x - y;
         }
 
         //метод деления
-        /*public static double Division(double x, double y)
+        public static double Division(double x, double y)
         {
-
-        }*/
-
-
+            if (y != 0)
+            {
+                return x / y;
+            }
+            else
+            {
+                throw new DivideByZeroException("Деление на ноль невозможно!");// тип исключения 
+            }
+        }
 
         //метод умножения
-        /*
+       
         public static double Multiply(double x, double y)
         {
-
+            return x * y;
         }
-        */
+       
     }
 }
