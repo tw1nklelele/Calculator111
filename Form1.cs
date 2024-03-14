@@ -56,11 +56,75 @@ namespace Calculator
             lbCalclutorUP.Text = lbCalclutorUP.Text + labelTextIn.Text + "=";
             operand2 = Convert.ToDouble(labelTextIn.Text);
             labelTextIn.Text = Calculator.Addition(operand1, operand2).ToString();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "4";
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "5";
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "6";
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "7";
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "8";
+        }
+
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "9";
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            labelTextIn.Text += "0";
+        }
+
+        private void btnPlus_Click(object sender, EventArgs e)//сложение
+        {
+            lbCalclutorUP.Text = lbCalclutorUP.Text + labelTextIn.Text + "=";
+            operand2 = Convert.ToDouble(labelTextIn.Text);
+            labelTextIn.Text = Calculator.Addition(operand1, operand2).ToString();
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)//вычитание
+        {
+            lbCalclutorUP.Text = lbCalclutorUP.Text + labelTextIn.Text + "=";
+            operand2 = Convert.ToDouble(labelTextIn.Text);
+            labelTextIn.Text = Calculator.Subtraction(operand1, operand2).ToString();
+        }
+
+        private void btnMulptiplication_Click(object sender, EventArgs e)//умножение
+        {
+            lbCalclutorUP.Text = lbCalclutorUP.Text + labelTextIn.Text + "=";
+            operand2 = Convert.ToDouble(labelTextIn.Text);
+            labelTextIn.Text = Calculator.Multiply(operand1, operand2).ToString();
+        }
+
+        private void btnDivision_Click(object sender, EventArgs e)
+        {
+            lbCalclutorUP.Text = lbCalclutorUP.Text + labelTextIn.Text + "=";
+            operand2 = Convert.ToDouble(labelTextIn.Text);
+            labelTextIn.Text = Calculator.Division(operand1, operand2).ToString();
         }
     }
 }
